@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlaneController : MonoBehaviour
 {
-    public float forwardSpeed = 20f;   // ��ɑO�i���鑬�x
-    public float rotationSpeed = 50f;  // ��]���x
+    public float forwardSpeed = 500f;   // ��ɑO�i���鑬�x
+    public float rotationSpeed = 10000f;  // ��]���x
     private Rigidbody rb;
 
     void Start()
